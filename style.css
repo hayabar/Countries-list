@@ -1,0 +1,36 @@
+body{
+    background-color: cornsilk;
+    
+}
+
+li{
+    background-color: white;
+    margin: 75px;
+    padding: 10px;
+    list-style: none;
+
+
+}
+li:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+div:nth-child(1){
+    background-color: cornsilk;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+img{
+height: 20px;
+width: 30px;
+padding: 2px;
+}
+
+#cnt{
+    background-color: white;
+}
