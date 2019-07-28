@@ -7,31 +7,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Countries</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
-    <div>Countries <span>(10)</span></div>
+    <div>Countries <span>(10)</span>
+        <input type="search" id="Search" value="Search Country By Mame">
+    </div>
+    
     <div id="cnt">
         <ul>
 
             <li>
-                <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/2000px-Flag_of_Israel.svg.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/2000px-Flag_of_Israel.svg.png">
                 ישראל
-                מזרח התיכון
+                <br>
+               <span> המזרח התיכון</span>
             </li>
-            <li>צרפת</li>
-            <li>רוסיה</li>
-            <li>ארה"ב</li>
-            <li>איטליה</li>
-            <li>בולגריה</li>
-            <li>ברטניה</li>
-            <li>גאורגיה</li>
-            <li>יוון</li>
-            <li>אוסטרליה</li>
+            <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAV1BMVEX///8AIJ/0KkEAFpxGTqwAIKL1U2H5KkL1OU792t7S2O/0Ijr96OoTMabm6PP2GjkACZ8AIKX1NUr5+v3++voAAJz2TF0OLKT2DjH1LUY5Rqz7GjoACaJzOqQiAAABCUlEQVR4nO3PyRWCUAAEwe+CuILIoiD5x2kIepjnqTqCrlIkSZIkSZIkSZIkSZL+VpOrj00N11ylWu+ZxuUcE56mV5vpPZdnV2Xa7YPCQ1uHepRbtcmUFV62meojISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISHhT8JnV2XKCts61KN06z3TuASF06vN9J5Lk6uPCYdrrtiUJEmSJEmSJEmSJEnS1z6JA82Mlaz+9AAAAABJRU5ErkJggg==">
+               צרפת
+               <br>
+               <span>אירופה</span>
+            </li>
+            <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAElBMVEX////VKx4AOaYAGJ4AOq3fKgABXnTtAAAA9UlEQVR4nO3QsQGAQAwAoejr/ivb50pbGIEZAAAAAAAAAAAAAAAAAAAAAH47bHOzOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJzUP27xsc7E5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aQ+2jLMGymKnQ8AAAAASUVORK5CYII=">
+                רוסיה
+                <br>
+               <span>אירופה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg">
+                ארה"ב
+                <br>
+                <span>צפון אמריקה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg">
+                איטליה
+                <br>
+                <span>אירופה</span>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg">
+                בולגריה
+                <br>
+                <span>אירופה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Union_Flag_%28including_Wales%29.svg/250px-Union_Flag_%28including_Wales%29.svg.png">
+                ברטניה
+                <br>
+                <span>אירופה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg">
+                גאורגיה
+                <br>
+                <span>אירואסיה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg">
+                יוון
+                <br>
+                <span>אירופה</span>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_Western_Australia.svg">
+                אוסטרליה
+                <br>
+                <span>אוקיאניה</span>
+            </li>
         </ul>
     </div>
 
+<script src="country.js"></script>
 
 </body>
 
